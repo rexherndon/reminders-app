@@ -32,6 +32,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Reminders</h1>
+      <p>Use the input field below to add a new reminder and delete existing reminders from the list below. </p>
       <NewReminder onAddReminder={addReminder} />
       <ReminderList items={reminders} onRemoveReminder={removeReminder}/>
     </div>
